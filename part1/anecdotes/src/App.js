@@ -21,7 +21,6 @@ const Anecdote = (props) => {
     <div>
       {`has ${props.points[props.index]} votes`}
     </div>
-
   </div>
   )
 }
@@ -59,7 +58,6 @@ const App = () => {
       <h1>Anecdote with most votes</h1>
       <Anecdote anecdotes = {anecdotes} index = {maxIndex(points)} points = {points}></Anecdote>
     </div>
-    
   )
 }
 
